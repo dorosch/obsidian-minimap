@@ -6,3 +6,23 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.minimap {
+    position: absolute;
+    right: 20px;
+    top: 5%;
+    width: 15%;
+    height: 90%;
+    overflow-y: hidden;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+    z-index: 10;
+}
+
+.minimap {
+    font-size: 10px;
+    line-height: 5px;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
